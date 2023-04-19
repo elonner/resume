@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    width: 8.5in;
+    height: 11in;
+    border: solid 1px black;    
+    display: grid;
+    grid-template-columns: 38fr 62fr;
+}
+
+#left {
+    background-color: #44618c;
+    color: #F2F7F8;
+}
+
+#about-me {
+    background-color: #001734;
+    padding: 25px;
+}
+
+#about-me>h1 {
+    background-color: #44618c;
+    text-align: center;
+    padding: 10px;
+}
+
+#about-me>h2 {
+    margin-bottom: 10px;
+}
+
+#about-me>p {
+    font-size: 10pt;
+}
+
+#education,
+#contact,
+#skills,
+#hobbies {
+    padding: 0 25px 25px 25px;
+}
+
+#contact>ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#right {
+    border: solid #b3cef7;
+    border-width: 25px 0 ;
+    background-color: #F2F7F8;
+}
+
+/* 
+text: #F2F7F8
+light: #b3cef7
+medium: #44618c
+dark: #001734 */
